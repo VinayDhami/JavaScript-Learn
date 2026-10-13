@@ -17,5 +17,5 @@ const newArr = myarr.join() // Changes into string make its type from array to s
 console.log(myarr)
 console.log(newArr)
 
-
-
+console.log(Array.from("Vinay")) // Divide vinay into hitesh
+console.log(Array.from({name: "vinay"})) // it cannot directly convert it into array
