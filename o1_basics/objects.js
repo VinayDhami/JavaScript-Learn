@@ -30,3 +30,33 @@ jsuser.greetingtwo = function(){
 
 console.log(jsuser.greeting())
 console.log(jsuser.greetingtwo())
+
+
+// const tinderuser = new Object() its a singleton
+const tinderuser = {}
+tinderuser.id = "123"
+tinderuser.name = "Dhami"
+tinderuser.isloggedin = false
+
+console.log(tinderuser)
+
+// Object inside object
+const insideobject = {
+    email: "vinay@",
+    fullname : {
+        username: {
+            firstname:"vinau",
+            last:"dhami"
+        }
+    }
+}
+console.log(insideobject.fullname?.username.firstname) // ? is used because if we fetch any data from api ? insicates if the value is there than print. it allows more protection.
+
+// Merging Objects
+const obj1 = {1:"a"}
+const obj2 = {2:"e"}
+//const obj3 = Object.assign({}, obj1 , obj2)
+
+const obj3 = {...obj1, ...obj2}
+console.log(obj3)
+
