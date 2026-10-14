@@ -60,3 +60,10 @@ const obj2 = {2:"e"}
 const obj3 = {...obj1, ...obj2}
 console.log(obj3)
 
+// {} Destructuring its use for access the objects in more easy way
+const course = {
+    name: " vinay",
+    dhami: " singh"
+}
+const {name} = course
+console.log(name)
