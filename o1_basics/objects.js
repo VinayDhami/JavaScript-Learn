@@ -67,3 +67,5 @@ const course = {
 }
 const {name} = course
 console.log(name)
+
+ 
