@@ -27,4 +27,10 @@ const myobj = {
 for (const key in myobj) {    
     console.log(key , myobj[key])    
 }
+// for each
+ const coading = [1,3,4,5,7,8]
+ coading.forEach( function (item){
+    console.log(item)
+ } )
 
+ 
