@@ -19,3 +19,4 @@ console.log(newArr)
 
 console.log(Array.from("Vinay")) // Divide vinay into hitesh
 console.log(Array.from({name: "vinay"})) // it cannot directly convert it into array
+
